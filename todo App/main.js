@@ -129,7 +129,7 @@ function additem(e) {
   var deletebtn = document.createElement("button");
 
   //add class
-  deletebtn.className = "btn btn-danger btn-sm float-right";
+  deletebtn.className = "btn btn-danger btn-sm float-right delete";
 
   //add textnode
   deletebtn.appendChild(document.createTextNode("Delete"));
